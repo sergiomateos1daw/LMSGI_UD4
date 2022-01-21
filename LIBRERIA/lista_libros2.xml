@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8850-1"?>
+<libros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="lista_libros.xsd">
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Ramírez</apellido1>
+                <apellido2>Sanchez</apellido2>
+                <nombre>José Antonio</nombre>
+            </autor>
+        </autores>
+        <titulo>El sol y la luna</titulo>
+        <ISBN>0199535566</ISBN>
+        <editorial>Anaya</editorial>
+        <fecha_publicacion>20/10/2000</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Mateos</apellido1>
+                <apellido2>Rios</apellido2>
+                <nombre>Marcos</nombre>
+            </autor>
+        </autores>
+        <titulo>Buscando a Marcos</titulo>
+        <ISBN>0199535567</ISBN>
+        <editorial>Anaya</editorial>
+        <fecha_publicacion>12/5/2015</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Marquez</apellido1>
+                <apellido2>Mendoza</apellido2>
+                <nombre>Alberto</nombre>
+            </autor>
+        </autores>
+        <titulo>El parque de mi casa</titulo>
+        <ISBN>0199535568</ISBN>
+        <editorial>Safe</editorial>
+        <fecha_publicacion>24/3/2014</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Linares</apellido1>
+                <apellido2>Ossorio</apellido2>
+                <nombre>Airam</nombre>
+            </autor>
+        </autores>
+        <titulo>Un canario en España</titulo>
+        <ISBN>0199535569</ISBN>
+        <editorial>Volcan</editorial>
+        <fecha_publicacion>22/10/2004</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Rios</apellido1>
+                <apellido2>Fernandez</apellido2>
+                <nombre>Anotio Juan</nombre>
+            </autor>
+        </autores>
+        <titulo>El pago pendiente</titulo>
+        <ISBN>0199535570</ISBN>
+        <editorial>JerezBook</editorial>
+        <fecha_publicacion>23/12/2018</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Rios</apellido1>
+                <apellido2>Fernandez</apellido2>
+                <nombre>Anotio Juan</nombre>
+            </autor>
+        </autores>
+        <titulo>El pago pendiente</titulo>
+        <ISBN>0199535570</ISBN>
+        <editorial>JerezBook</editorial>
+        <fecha_publicacion>23/12/2018</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Rios</apellido1>
+                <apellido2>Fernandez</apellido2>
+                <nombre>Anotio Juan</nombre>
+            </autor>
+        </autores>
+        <titulo>El pago pendiente</titulo>
+        <ISBN>0199535570</ISBN>
+        <editorial>JerezBook</editorial>
+        <fecha_publicacion>23/12/2018</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Rios</apellido1>
+                <apellido2>Fernandez</apellido2>
+                <nombre>Anotio Juan</nombre>
+            </autor>
+        </autores>
+        <titulo>El pago pendiente</titulo>
+        <ISBN>0199535570</ISBN>
+        <editorial>JerezBook</editorial>
+        <fecha_publicacion>23/12/2018</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Rios</apellido1>
+                <apellido2>Fernandez</apellido2>
+                <nombre>Anotio Juan</nombre>
+            </autor>
+        </autores>
+        <titulo>El pago pendiente</titulo>
+        <ISBN>0199535570</ISBN>
+        <editorial>JerezBook</editorial>
+        <fecha_publicacion>23/12/2018</fecha_publicacion>
+    </libro>
+    <libro>
+        <autores>
+            <autor>
+                <apellido1>Rios</apellido1>
+                <apellido2>Fernandez</apellido2>
+                <nombre>Anotio Juan</nombre>
+            </autor>
+        </autores>
+        <titulo>El pago pendiente</titulo>
+        <ISBN>0199535570</ISBN>
+        <editorial>JerezBook</editorial>
+        <fecha_publicacion>23/12/2018</fecha_publicacion>
+    </libro>
+</libros>
