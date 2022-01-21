@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concesionario SYSTEM "concesionario.dtd">
+<concesionario>
+    <coche>
+        <codigo>1</codigo>
+        <marca>MERCEDES</marca>
+        <modelo>BENZ</modelo>
+        <matricula>2010SMP</matricula>
+        <potencia>220</potencia>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+    <coche>
+        <codigo>2</codigo>
+        <marca>SEAT</marca>
+        <modelo>LEON</modelo>
+        <matricula>4928DDV</matricula>
+        <potencia>90</potencia>
+        <plazas>5</plazas>
+        <puertas>3</puertas>
+    </coche>
+    <coche>
+        <codigo>3</codigo>
+        <marca>FORD</marca>
+        <modelo>FOCUS</modelo>
+        <matricula>4589KHG</matricula>
+        <potencia>120</potencia>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+    <coche>
+        <codigo>4</codigo>
+        <marca>TOYOTA</marca>
+        <modelo>ILUX</modelo>
+        <matricula>4928GDU</matricula>
+        <potencia>120</potencia>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+    <coche>
+        <codigo>5</codigo>
+        <marca>PEUGEOT</marca>
+        <modelo>5008</modelo>
+        <matricula>5369KHJ</matricula>
+        <potencia>150</potencia>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+    </coche>
+</concesionario>
