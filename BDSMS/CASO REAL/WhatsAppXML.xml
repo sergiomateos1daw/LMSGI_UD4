@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WhatsApp SYSTEM "WhatsAppXML.dtd">
+<WhatsApp>
+    <contactos>
+        <contacto>
+            <idUsuario>5698</idUsuario>
+            <nombre>Sergio Mateos</nombre>
+            <telefono>653412269</telefono>
+        </contacto>
+        <contacto>
+            <idUsuario>4597</idUsuario>
+            <nombre>Airam Linares</nombre>
+            <telefono>696875697</telefono>
+        </contacto>
+        <contacto>
+            <idUsuario>7539</idUsuario>
+            <nombre>Alberto Marquez</nombre>
+            <telefono>659784526</telefono>
+        </contacto>
+    </contactos>
+    <mensajes>
+        <mensaje>
+            <idMensaje>5124</idMensaje>
+            <contacto>Sergio Mateos</contacto>
+            <mensaje>Hola que tal!</mensaje>
+            <hora>12:46:36</hora>
+            <fecha>12/01/2022</fecha>
+        </mensaje>
+        <mensaje>
+            <idMensaje>6932</idMensaje>
+            <contacto>Airam Linares</contacto>
+            <mensaje>¿Vas a venir?</mensaje>
+            <hora>23:40:02</hora>
+            <fecha>11/01/2022</fecha>
+        </mensaje>
+        <mensaje>
+            <idMensaje>4596</idMensaje>
+            <contacto>Alberto Marquez</contacto>
+            <mensaje>Hasta otra!!</mensaje>
+            <hora>15:26:10</hora>
+            <fecha>09/01/2022</fecha>
+        </mensaje>
+    </mensajes>
+    <llamadas>
+        <llamada>
+            <idLlamada>6963</idLlamada>
+            <contacto>Airam Linares</contacto>
+            <tipoLlamada>Entrante</tipoLlamada>
+            <duracion>00:02:15</duracion>
+        </llamada>
+        <llamada>
+            <idLlamada>4521</idLlamada>
+            <contacto>Alberto Marquez</contacto>
+            <tipoLlamada>Entrante</tipoLlamada>
+            <duracion>00:10:24</duracion>
+        </llamada>
+        <llamada>
+            <idLlamada>2597</idLlamada>
+            <contacto>Desconocido</contacto>
+            <tipoLlamada>Saliente</tipoLlamada>
+            <duracion>01:04:36</duracion>
+        </llamada>
+    </llamadas>
+</WhatsApp>

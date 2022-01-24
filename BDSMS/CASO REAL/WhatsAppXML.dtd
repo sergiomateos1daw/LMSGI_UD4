@@ -1,0 +1,65 @@
+<?xml encoding="utf-8"?>
+
+<!ELEMENT WhatsApp (contactos,mensajes,llamadas)>
+<!ATTLIST WhatsApp
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT contactos (contacto)+>
+<!ATTLIST contactos
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT mensajes (mensaje)+>
+<!ATTLIST mensajes
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT llamadas (llamada)+>
+<!ATTLIST llamadas
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT llamada (idLlamada,contacto,tipoLlamada,duracion)>
+<!ATTLIST llamada
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT idLlamada (#PCDATA)>
+<!ATTLIST idLlamada
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT tipoLlamada (#PCDATA)>
+<!ATTLIST tipoLlamada
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT duracion (#PCDATA)>
+<!ATTLIST duracion
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT contacto (#PCDATA|idUsuario|nombre|telefono)*>
+<!ATTLIST contacto
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT idUsuario (#PCDATA)>
+<!ATTLIST idUsuario
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT telefono (#PCDATA)>
+<!ATTLIST telefono
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT mensaje (#PCDATA|contacto|mensaje|fecha|hora|idMensaje)*>
+<!ATTLIST mensaje
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT fecha (#PCDATA)>
+<!ATTLIST fecha
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT hora (#PCDATA)>
+<!ATTLIST hora
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT idMensaje (#PCDATA)>
+<!ATTLIST idMensaje
+    xmlns CDATA #FIXED ''>

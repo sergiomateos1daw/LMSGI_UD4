@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xs:element name="clientes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="sede"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sede">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="direccion"/>
+        <xs:element ref="nombreEmpleado"/>
+        <xs:element ref="fechaAlta"/>
+        <xs:element ref="descripcionCliente"/>
+        <xs:element maxOccurs="unbounded" ref="cliente"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="direccion" type="xs:string"/>
+  <xs:element name="nombreEmpleado" type="xs:string"/>
+  <xs:element name="fechaAlta" type="xs:NMTOKEN"/>
+  <xs:element name="descripcionCliente" type="xs:NCName"/>
+  <xs:element name="cliente">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="numViviendas"/>
+        <xs:element ref="resumenViviendas"/>
+        <xs:element ref="plazoAlta"/>
+      </xs:sequence>
+      <xs:attribute name="codigo" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="numViviendas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="costeVivienda"/>
+      </xs:sequence>
+      <xs:attribute name="numero" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="costeVivienda" type="xs:integer"/>
+  <xs:element name="resumenViviendas" type="xs:string"/>
+  <xs:element name="plazoAlta" type="xs:NMTOKEN"/>
+</xs:schema>

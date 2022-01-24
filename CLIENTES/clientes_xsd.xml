@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="clientes.xsd">
+    <sede codigo="T45678XV">
+        <direccion>Calle Avenida de Epaña 82</direccion>
+        <direccion>Calle San Ignacio 23-C</direccion>
+        <nombreEmpleado>Serigo Mateos Puerta</nombreEmpleado>
+        <fechaAlta>2021-01-01T00:00:00</fechaAlta>
+        <descripcionCliente>Solvente</descripcionCliente>
+        <cliente codigo="THB-123">
+            <numViviendas numero="1">
+                <costeVivienda>139656</costeVivienda>
+            </numViviendas>
+            <resumenViviendas>Vacia</resumenViviendas>
+            <plazoAlta>2022-01-14</plazoAlta>
+        </cliente>
+        <cliente codigo="YYY-999">
+            <numViviendas numero="2">
+                <costeVivienda>16888</costeVivienda>
+            </numViviendas>
+            <resumenViviendas>Equipada</resumenViviendas>
+            <plazoAlta>2022-01-10</plazoAlta>
+        </cliente>
+    </sede>
+    <sede codigo="P47923YU">
+        <direccion>Direccion de la sede</direccion>
+        <nombreEmpleado>Sergio Mateos Puerta</nombreEmpleado>
+        <fechaAlta>2022-01-21T14:30:00</fechaAlta>
+        <descripcionCliente>Insolvente</descripcionCliente>
+        <cliente codigo="SMP-098">
+            <numViviendas numero="3">
+                <costeVivienda>10000</costeVivienda>
+            </numViviendas>
+            <resumenViviendas>Malas condiciones</resumenViviendas>
+            <plazoAlta>2022-01-21</plazoAlta>
+        </cliente>
+    </sede>
+</clientes>
