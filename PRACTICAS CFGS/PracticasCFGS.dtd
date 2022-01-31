@@ -1,0 +1,30 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT practicas (alumnos)>
+<!ATTLIST practicas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT alumnos (alumno)+>
+<!ATTLIST alumnos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT alumno (nif,resultado,observaciones,ip-mac)>
+<!ATTLIST alumno
+  xmlns CDATA #FIXED ''
+  nombre CDATA #REQUIRED>
+
+<!ELEMENT nif (#PCDATA)>
+<!ATTLIST nif
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT resultado (#PCDATA)>
+<!ATTLIST resultado
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT observaciones (#PCDATA)>
+<!ATTLIST observaciones
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ip-mac EMPTY>
+<!ATTLIST ip-mac
+  xmlns CDATA #FIXED ''>

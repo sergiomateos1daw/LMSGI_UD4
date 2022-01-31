@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<practicas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="PracticasCFGS.xsd">
+    <alumnos>
+        <alumno nombre="Sergio Mateos Puerta">
+            <nif>32902593K</nif>
+            <resultado>APTO</resultado>
+            <observaciones>Resultado esperado en las realización de las práticas</observaciones>
+            <ip-mac></ip-mac>
+        </alumno>
+        <alumno nombre="Antonio Juan Rios Fernandez">
+            <nif>31972593P</nif>
+            <resultado>APTO</resultado>
+            <observaciones>Puede dar mas de si</observaciones>
+            <ip-mac></ip-mac>
+        </alumno>
+        <alumno nombre="Airam Linares Ossorio">
+            <nif>35392603U</nif>
+            <resultado>NO APTO</resultado>
+            <observaciones>El esfuerzo ha sido nulo</observaciones>
+            <ip-mac></ip-mac>
+        </alumno>
+        <alumno nombre="Alberto Marquez Mendoza">
+            <nif>59631578D</nif>
+            <resultado>NO APTO</resultado>
+            <observaciones>No se esperaban grandes resultados de este alumno</observaciones>
+            <ip-mac></ip-mac>
+        </alumno>
+    </alumnos>
+</practicas>
