@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<clientes>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="clientesReal.xsd">
     <sede codigo="T45678XV">
         <direccion>Calle Avenida de Epaña 82</direccion>
         <direccion>Calle San Ignacio 23-C</direccion>
