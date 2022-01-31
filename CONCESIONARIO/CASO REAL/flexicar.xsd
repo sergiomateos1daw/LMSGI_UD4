@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:annotation>
+  <xs:documentation xml:lang="Es-es">
+    Esquema para la web FlexiCar
+    <fecha>28/01/2022</fecha>
+    <autor>Sergio Mateos</autor>
+  </xs:documentation>
+</xs:annotation>
+  <xs:element name="coches">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="coche">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="codigo" type="xs:unsignedByte" />
+              <xs:element name="marca" type="xs:string" />
+              <xs:element name="modelo" type="xs:string" />
+              <xs:element name="potencia" type="xs:string" />
+              <xs:element name="kms" type="xs:string" />
+              <xs:element name="plazas" type="xs:unsignedByte" />
+              <xs:element name="puertas" type="xs:unsignedByte" />
+              <xs:element name="año" type="xs:unsignedShort" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

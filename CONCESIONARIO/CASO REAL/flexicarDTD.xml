@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coches SYSTEM "flexicar.dtd">
+<coches>
+    <coche>
+        <codigo>0001</codigo>
+        <marca>BMW</marca>
+        <modelo>Serie 2</modelo>
+        <potencia>1.500 / 140 cv</potencia>
+        <kms>25807</kms>
+        <plazas>5</plazas>
+        <puertas>4</puertas>
+        <año>2020</año>
+    </coche>
+    <coche>
+        <codigo>0002</codigo>
+        <marca>Audi</marca>
+        <modelo>A7</modelo>
+        <potencia>3.000 / 218 cv</potencia>
+        <kms>0</kms>
+        <plazas>4</plazas>
+        <puertas>5</puertas>
+        <año>2017</año>
+    </coche>
+    <coche>
+        <codigo>0003</codigo>
+        <marca>Nissan</marca>
+        <modelo>Qashqai</modelo>
+        <potencia>1.600 / 130 cv</potencia>
+        <kms>65808 km</kms>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+        <año>2017</año>
+    </coche>
+    <coche>
+        <codigo>0004</codigo>
+        <marca>SEAT</marca>
+        <modelo>Ibiza</modelo>
+        <potencia>1.000 / 80 cv</potencia>
+        <kms>26600</kms>
+        <plazas>5</plazas>
+        <puertas>5</puertas>
+        <año>2019</año>
+    </coche>
+</coches>

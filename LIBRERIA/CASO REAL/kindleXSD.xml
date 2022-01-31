@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libreria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="kindl.xsd">
+    <libro>
+        <titulo>Pista helada (Tracy Crosswhite nº 7)</titulo>
+        <autores>
+            <autor>
+                <apellido1>Dugoni</apellido1>
+                <nombre> Robert</nombre>
+            </autor>
+        </autores>
+        <idioma>Español</idioma>
+        <editorial>Amazon Crossing</editorial>
+        <ASIN>B09CGBWXJF</ASIN>
+        <longitudImpresion>396</longitudImpresion>
+        <fechaPublicacion>28 diciembre 2021</fechaPublicacion>
+    </libro>
+    <libro>
+        <titulo>Mi vida entre manzanas rojas</titulo>
+        <autores>
+            <autor>
+                <apellido1>Tello</apellido1>
+                <nombre>Lourdes</nombre>
+            </autor>
+        </autores>
+        <idioma>Español</idioma>
+        <editorial>Amazon Crossing</editorial>
+        <ASIN>B0966T7MS3</ASIN>
+        <longitudImpresion>282</longitudImpresion>
+        <fechaPublicacion>29 mayo 2021</fechaPublicacion>
+    </libro>
+    <libro>
+        <titulo>Lujuria. : Un increíble thriller adictivo</titulo>
+        <autores>
+            <autor>
+                <apellido1>Escobar</apellido1>
+                <nombre>Mario</nombre>
+            </autor>
+        </autores>
+        <idioma>Español</idioma>
+        <editorial>Amazon Crossing</editorial>
+        <ASIN>B08YRSWT6W</ASIN>
+        <longitudImpresion>125</longitudImpresion>
+        <fechaPublicacion>14 mayo 2021</fechaPublicacion>
+    </libro>
+</libreria>

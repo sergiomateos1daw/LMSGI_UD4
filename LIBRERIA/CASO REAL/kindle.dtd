@@ -1,0 +1,47 @@
+<?xml encoding="utf-8"?>
+<!ELEMENT libreria (libro)+>
+    <!ATTLIST libreria
+        xmlns CDATA #FIXED ''>
+<!ELEMENT libro (titulo,autores,idioma,editorial,ASIN,longitudImpresion,fechaPublicacion)>
+<!ATTLIST libro
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ATTLIST titulo
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT autores (autor)>
+<!ATTLIST autores
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT idioma (#PCDATA)>
+<!ATTLIST idioma
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT editorial (#PCDATA)>
+<!ATTLIST editorial
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT ASIN (#PCDATA)>
+<!ATTLIST ASIN
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT longitudImpresion (#PCDATA)>
+<!ATTLIST longitudImpresion
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT fechaPublicacion (#PCDATA)>
+<!ATTLIST fechaPublicacion
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT autor (apellido1,nombre)>
+<!ATTLIST autor
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT apellido1 (#PCDATA)>
+<!ATTLIST apellido1
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+    xmlns CDATA #FIXED ''>

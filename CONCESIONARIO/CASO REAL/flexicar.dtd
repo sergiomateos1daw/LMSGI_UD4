@@ -1,0 +1,41 @@
+<?xml encoding="utf-8"?>
+
+<!ELEMENT coches (coche)+>
+<!ATTLIST coches
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT coche (codigo,marca,modelo,potencia,kms,plazas,puertas,año)>
+<!ATTLIST coche
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT codigo (#PCDATA)>
+<!ATTLIST codigo
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT marca (#PCDATA)>
+<!ATTLIST marca
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT modelo (#PCDATA)>
+<!ATTLIST modelo
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT potencia (#PCDATA)>
+<!ATTLIST potencia
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT kms (#PCDATA)>
+<!ATTLIST kms
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT plazas (#PCDATA)>
+<!ATTLIST plazas
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT puertas (#PCDATA)>
+<!ATTLIST puertas
+    xmlns CDATA #FIXED ''>
+
+<!ELEMENT año (#PCDATA)>
+<!ATTLIST año
+    xmlns CDATA #FIXED ''>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:annotation>
+  <xs:documentation xml:lang="Es-es">
+    Esquema para la librería Kindle
+    <fecha>28/01/2022</fecha>
+    <autor>Sergio Mateos</autor>
+  </xs:documentation>
+</xs:annotation>
+  <xs:element name="libreria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="libro">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:string" />
+              <xs:element name="autores">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="autor">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="apellido1" type="xs:string" />
+                          <xs:element name="nombre" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="idioma" type="xs:string" />
+              <xs:element name="editorial" type="xs:string" />
+              <xs:element name="ASIN" type="xs:string" />
+              <xs:element name="longitudImpresion" type="xs:unsignedShort" />
+              <xs:element name="fechaPublicacion" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
