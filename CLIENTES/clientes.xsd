@@ -1,54 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <xs:annotation>
-    <xs:documentation xml:lang="Es-es">
-      Esquema para alta de clientes en sede central
-      <fecha>28/01/2022</fecha>
-      <autor>Sergio Mateos Puerta</autor>
-    </xs:documentation>
-  </xs:annotation>
-  <xs:element name="clientes">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element maxOccurs="unbounded" ref="sede"/>
-      </xs:sequence>
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:annotation>
+        <xs:documentation xml:lang="ES-es">
+        Esquema para el alta de clientes en sede central
+        <fecha> 31/1/2022 </fecha>
+        <autor> Julio Nieto Cordón </autor>
+        </xs:documentation>
+    </xs:annotation>
+    <xs:element name="clientes" type="clientesDatos"/>
+    <xs:complexType name="clientesDatos">
+        <xs:sequence>
+            <xs:element name="sede" type="sedeDatos" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
     </xs:complexType>
-  </xs:element>
-  <xs:element name="sede">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element maxOccurs="unbounded" ref="direccion"/>
-        <xs:element ref="nombreEmpleado"/>
-        <xs:element ref="fechaAlta"/>
-        <xs:element ref="descripcionCliente"/>
-        <xs:element maxOccurs="unbounded" ref="cliente"/>
-      </xs:sequence>
-      <xs:attribute name="codigo" use="required" type="xs:NCName"/>
+    <xs:complexType name="sedeDatos">
+        <xs:sequence>
+            <xs:element name="direccion" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="empleado" type="xs:string"/>
+            <xs:element name="fecha" type="xs:date"/>
+            <xs:element name="descripcion" type="xs:string" minOccurs="0"/>
+            <xs:element name="cliente" type="clienteNDatos" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="codigo" type="codigoTipo" use="required"/>
     </xs:complexType>
-  </xs:element>
-  <xs:element name="direccion" type="xs:string"/>
-  <xs:element name="nombreEmpleado" type="xs:string"/>
-  <xs:element name="fechaAlta" type="xs:NMTOKEN"/>
-  <xs:element name="descripcionCliente" type="xs:NCName"/>
-  <xs:element name="cliente">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="numViviendas"/>
-        <xs:element ref="resumenViviendas"/>
-        <xs:element ref="plazoAlta"/>
-      </xs:sequence>
-      <xs:attribute name="codigo" use="required" type="xs:NCName"/>
+    <xs:simpleType name="codigoTipo">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Za-z]([A-Za-z0-9]){7}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="clienteNDatos">
+        <xs:sequence>
+            <xs:element name="numero">
+                <xs:simpleType>
+                    <xs:restriction base="xs:positiveInteger">
+                        <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="coste">
+                <xs:simpleType>
+                    <xs:restriction base="xs:decimal">
+                        <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="resumen" type="xs:string"/>
+            <xs:element name="plazo">
+                <xs:simpleType>
+                    <xs:restriction base="xs:positiveInteger">
+                        <xs:minInclusive value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="codigo" type="codigoCliente" use="required"/>
     </xs:complexType>
-  </xs:element>
-  <xs:element name="numViviendas">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="costeVivienda"/>
-      </xs:sequence>
-      <xs:attribute name="numero" use="required" type="xs:integer"/>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="costeVivienda" type="xs:integer"/>
-  <xs:element name="resumenViviendas" type="xs:string"/>
-  <xs:element name="plazoAlta" type="xs:NMTOKEN"/>
+    <xs:simpleType name="codigoCliente">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[A-Z]{3}-[0-9]{3}"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
