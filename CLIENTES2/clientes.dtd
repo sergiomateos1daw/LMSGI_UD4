@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!ELEMENT clientes (sede+)>
+<!ELEMENT sede (direccion+,nombreEmpleado,fechaAlta,descripcionCliente?,cliente+)>
+    <!ATTLIST sede codigo CDATA #REQUIRED>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT nombreEmpleado (#PCDATA)>
+<!ELEMENT fechaAlta (#PCDATA)>
+<!ELEMENT descripcionCliente (#PCDATA)>
+<!ELEMENT cliente (numViviendas,costeVivienda,resumenViviendas?,plazoAlta)>
+    <!ATTLIST cliente codigo CDATA #REQUIRED> <!-- ¿PODRÍA SER ID EN VEZ DE CDATA?-->
+<!ELEMENT numViviendas (#PCDATA)>
+<!ELEMENT costeVivienda (#PCDATA)>
+<!ELEMENT resumenViviendas (#PCDATA)>
+<!ELEMENT plazoAlta (#PCDATA)>

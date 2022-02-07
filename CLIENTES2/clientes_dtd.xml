@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clientes SYSTEM "clientes.dtd">
+<clientes>
+    <sede codigo="T12345BC">
+        <direccion>Calle Larga</direccion>
+        <direccion>Avenida España 82</direccion>
+        <nombreEmpleado>Sergio Mateos</nombreEmpleado>
+        <fechaAlta>2022-02-01T00:00:00</fechaAlta>
+        <descripcionCliente>Solvente</descripcionCliente>
+        <cliente codigo="CCC-123">
+            <numViviendas>2</numViviendas>
+            <costeVivienda>13296</costeVivienda>
+            <resumenViviendas>Resumen Vivienda</resumenViviendas>
+            <plazoAlta>2022-01-22</plazoAlta>
+        </cliente>
+        <cliente codigo="ABC-234">
+            <numViviendas>1</numViviendas>
+            <costeVivienda>4000</costeVivienda>
+            <resumenViviendas>Como nueva</resumenViviendas>
+            <plazoAlta>2022-01-23</plazoAlta>
+        </cliente>
+    </sede>
+    <sede codigo="A12345MN">
+        <direccion>Ubrique Avenida Jose Maria 12</direccion>
+        <nombreEmpleado>Anotio Juan Rios</nombreEmpleado>
+        <fechaAlta>2022-02-04T12:00:00</fechaAlta>
+        <descripcionCliente>Insolvente</descripcionCliente>
+        <cliente codigo="TYU-679">
+            <numViviendas>1</numViviendas>
+            <costeVivienda>1000</costeVivienda>
+            <resumenViviendas>Mal estado</resumenViviendas>
+            <plazoAlta>2022-02-10</plazoAlta>
+        </cliente>
+    </sede>
+</clientes>

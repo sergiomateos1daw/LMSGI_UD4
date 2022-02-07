@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="clientes.xsd">
+    <sede codigo="T12345BC">
+        <direccion>Calle Larga</direccion>
+        <direccion>Avenida España 82</direccion>
+        <nombreEmpleado>Sergio Mateos</nombreEmpleado>
+        <fechaAlta>2022-02-01T00:00:00</fechaAlta>
+        <descripcionCliente>Solvente</descripcionCliente>
+        <cliente codigo="CCC-123">
+            <numViviendas>2</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>13296</costeVivienda>
+                <resumenViviendas>Apta</resumenViviendas>
+                <plazoAlta>2022-01-22</plazoAlta>
+            </vivienda>
+            <vivienda ID="002">
+                <costeVivienda>10000</costeVivienda>
+                <resumenViviendas>Deteriorada</resumenViviendas>
+                <plazoAlta>2022-01-20</plazoAlta>
+            </vivienda>
+        </cliente>
+        <cliente codigo="ABC-234">
+            <numViviendas>1</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>4000</costeVivienda>
+                <resumenViviendas>Como nueva</resumenViviendas>
+                <plazoAlta>2022-01-23</plazoAlta>
+            </vivienda>
+        </cliente>
+    </sede>
+    <sede codigo="A12345MN">
+        <direccion>Ubrique Avenida Jose Maria 12</direccion>
+        <nombreEmpleado>Anotio Juan Rios</nombreEmpleado>
+        <fechaAlta>2022-02-04T12:00:00</fechaAlta>
+        <descripcionCliente>Insolvente</descripcionCliente>
+        <cliente codigo="TYU-679">
+            <numViviendas>1</numViviendas>
+            <vivienda ID="001">
+                <costeVivienda>1000</costeVivienda>
+                <resumenViviendas>Mal estado</resumenViviendas>
+                <plazoAlta>2022-02-10</plazoAlta>
+            </vivienda>
+        </cliente>
+    </sede>
+</clientes>

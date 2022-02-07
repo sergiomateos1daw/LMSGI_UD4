@@ -1,0 +1,52 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:annotation>
+    <xs:documentation xml:lang="Es-es">
+      Esquema para alta de clientes en sede central
+      <fecha>31/01/2022</fecha>
+      <autor>Sergio Mateos Puerta</autor>
+    </xs:documentation>
+  </xs:annotation>
+<xs:element name="clientes">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="sede" maxOccurs="unbounded" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element type="xs:string" name="direccion" maxOccurs="unbounded" minOccurs="0"/>
+            <xs:element type="xs:string" name="nombreEmpleado"/>
+            <xs:element type="xs:dateTime" name="fechaAlta"/>
+            <xs:element type="xs:string" name="descripcionCliente"/>
+            <xs:element name="cliente">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="vivienda" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                      <xs:sequence>
+                        <xs:element name="numViviendas">
+                          <xs:complexType>
+                            <xs:simpleContent>
+                              <xs:extension base="xs:string">
+                                <xs:attribute type="xs:byte" name="numero" use="optional"/>
+                              </xs:extension>
+                            </xs:simpleContent>
+                          </xs:complexType>
+                        </xs:element>
+                        <xs:element type="xs:int" name="costeVivienda"/>
+                        <xs:element type="xs:byte" name="numHabitaciones"/>
+                        <xs:element type="xs:string" name="resumenViviendas"/>
+                        <xs:element type="xs:date" name="plazoAlta"/>
+                      </xs:sequence>
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute type="xs:string" name="codigo" use="optional"/>
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute type="xs:string" name="codigo" use="optional"/>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>
