@@ -2,40 +2,46 @@
 <editorial>
     <cabecera>
         <titulo>Ediciones Aranda</titulo>
-        <resumen>Informe regional de ventas</resumen>
-        <descripcion>informe de ventas para las regiones Norte, Centro y Sur</descripcion>
-        <fecha_informe>30/12/2009</fecha_informe>
+        <contenido>Informe regional de ventas</contenido>
+        <descripcion>Descripción: informe de ventas para las regiones Norte, Centro y Sur</descripcion>
+        <fecha>Fecha del informe: 30/12/2009</fecha>
     </cabecera>
     <tablas>
-        <region> Norte
-            <trimestre>1</trimestre>
-            <libros>24000</libros>
-            <trimestre>2</trimestre>
-            <libros>38600</libros>
-            <trimestre>3</trimestre>
-            <libros>NO_INFO</libros>
-            <trimestre>4</trimestre>
-            <libros>NO_INFO</libros>
+        <region>
+            <norte>Norte
+                <trim>1</trim>
+                <lib>24000</lib>
+                <trim>2</trim>
+                <lib>38600</lib>
+                <trim>3</trim>
+                <lib>NO_INFO</lib>
+                <trim>4</trim>
+                <lib>NO_INFO</lib>
+            </norte>
         </region>
-        <region> Centro
-            <trimestre>1</trimestre>
-            <libros>NO_INFO</libros>
-            <trimestre>2</trimestre>
-            <libros>16080</libros>
-            <trimestre>3</trimestre>
-            <libros>25000</libros>
-            <trimestre>4</trimestre>
-            <libros>29000</libros>
+        <region>
+            <centro>Centro
+                <trim>1</trim>
+                <lib>NO_INFO</lib>
+                <trim>2</trim>
+                <lib>16080</lib>
+                <trim>3</trim>
+                <lib>25000</lib>
+                <trim>4</trim>
+                <lib>29000</lib>
+            </centro>
         </region>
-        <region> Sur
-            <trimestre>1</trimestre>
-            <libros>27000</libros>
-            <trimestre>2</trimestre>
-            <libros>31400</libros>
-            <trimestre>3</trimestre>
-            <libros>40100</libros>
-            <trimestre>4</trimestre>
-            <libros>30000</libros>
+        <region>
+            <sur>Sur
+                <trim>1</trim>
+                <lib>27000</lib>
+                <trim>2</trim>
+                <lib>31400</lib>
+                <trim>3</trim>
+                <lib>40100</lib>
+                <trim>4</trim>
+                <lib>30000</lib>
+            </sur>
         </region>
     </tablas>
 </editorial>
