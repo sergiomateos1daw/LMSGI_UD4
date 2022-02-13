@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE modulos SYSTEM "modulos.dtd">
+<modulos>
+    <modulo>
+        <nombre>Programacion</nombre>
+        <contenidos>
+            <ud1>
+                <tipo>Programar con bloques</tipo>
+                <descripcion>Se programa a un nivel más sencillo</descripcion>
+            </ud1>
+            <ud2>
+                <tipo>Programar en arduino</tipo>
+                <descripcion>Programar con el lenguaje arduino</descripcion>
+            </ud2>
+            <ud3>
+                <tipo>Programar en JavaFX</tipo>
+                <descripcion>Programar con JavaFX</descripcion>
+            </ud3>
+            <ud4>
+                <tipo>Programacion en JavaFX</tipo>
+                <descripcion>Programar en javaFX con mas de una clase</descripcion>
+            </ud4>
+        </contenidos>
+    </modulo>
+    <modulo>
+        <nombre>LMGSI</nombre>
+        <contenidos>
+            <ud1>
+                <tipo>HTML</tipo>
+                <descripcion>Programar en HTML</descripcion>
+            </ud1>
+            <ud2>
+                <tipo>CSS</tipo>
+                <descripcion>Programar enCSS</descripcion>
+            </ud2>
+            <ud3>
+                <tipo>XML</tipo>
+                <descripcion>Programar en XML</descripcion>
+            </ud3>
+            <ud4>
+                <tipo>XML DTD XSD</tipo>
+                <descripcion>Hacer xml con dtd y xsd</descripcion>
+            </ud4>
+        </contenidos>
+    </modulo>
+    <modulo>
+        <nombre>Base de datos</nombre>
+        <contenidos>
+            <ud1>
+                <tipo>Esquema Entidad relacion</tipo>
+                <descripcion>Bases del esquema entidad relacion</descripcion>
+            </ud1>
+            <ud2>
+                <tipo>Esquema Entidad relacion</tipo>
+                <descripcion>Convertir problemas en esquema entidad relacion</descripcion>
+            </ud2>
+            <ud3>
+                <tipo>Modelo relacional</tipo>
+                <descripcion>Convertir esquema entidad relacion en Modelo relacional</descripcion>
+            </ud3>
+            <ud4>
+                <tipo>Lenguaje SQL</tipo>
+                <descripcion>Implementar modelo relacion en SQL</descripcion>
+            </ud4>
+        </contenidos>
+    </modulo>
+</modulos>

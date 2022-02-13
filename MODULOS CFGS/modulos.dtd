@@ -1,0 +1,41 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT modulos (modulo)+>
+<!ATTLIST modulos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT modulo (nombre,contenidos)>
+<!ATTLIST modulo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT contenidos (ud1,ud2,ud3,ud4)>
+<!ATTLIST contenidos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ud1 (tipo,descripcion)>
+<!ATTLIST ud1
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ud2 (tipo,descripcion)>
+<!ATTLIST ud2
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ud3 (tipo,descripcion)>
+<!ATTLIST ud3
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT ud4 (tipo,descripcion)>
+<!ATTLIST ud4
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT tipo (#PCDATA)>
+<!ATTLIST tipo
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ATTLIST descripcion
+  xmlns CDATA #FIXED ''>
